@@ -1,0 +1,3 @@
+[submodule "extern/django"]
+	path = extern/django
+	url = git@github.com:django/django.git

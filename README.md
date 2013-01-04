@@ -10,25 +10,24 @@ Dependencies
 Seeing as the dependencies of an entire web app are non-trivial, this attempts 
 to document them.
 
-Some dependencies are included as git submodules and should require no 
-additional installation:
+Some dependencies are included as git submodules:
 * Django
 * mongoengine
-* labcms
-* athens
+* (athens)
 
 The following daemons are required:
 * nginx
 * memcached
 * PostgreSQL
 * MongoDB
-* nginx-gridfs, gridfs-fuse, gridfs-fusepy, or another solution to serve files 
+* nginx-gridfs, gridfs-fuse, gridfsfusepy, or another solution to serve files 
   out of GridFS
 
 The following libraries are required (listed as Ubuntu package names):
 * python-pymongo
 * python-gridfs
 * python-psycopg2
+* python-memcached
 
 Configuration
 -------------

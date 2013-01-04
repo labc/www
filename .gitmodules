@@ -1,3 +1,6 @@
 [submodule "extern/django"]
 	path = extern/django
 	url = git@github.com:django/django.git
+[submodule "labcms"]
+	path = labcms
+	url = git@github.com:labc/labcms.git

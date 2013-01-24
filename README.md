@@ -28,6 +28,8 @@ The following libraries are required (listed as Ubuntu package names):
 * python-gridfs
 * python-psycopg2
 * python-memcached
+* python-yaml
+* python-markdown
 
 Configuration
 -------------

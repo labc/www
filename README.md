@@ -13,6 +13,7 @@ to document them.
 Some dependencies are included as git submodules:
 * Django
 * mongoengine
+* labcms
 * (athens)
 
 The following daemons are required:

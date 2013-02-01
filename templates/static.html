@@ -1,11 +1,13 @@
+{% load static from staticfiles %}
 <!DOCTYPE html>
 <html>
 	<head>
 		<title>{{page.title}}</title>
+		<link rel="stylesheet" href="{% static 'labc.css' %}">
 	</head>
 	<body>
-		<div id="content">
+		<section id="content">
 			{{page.document}}
-		</div>
+		</section>
 	</body>
 </html>
